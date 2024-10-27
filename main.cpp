@@ -22,6 +22,18 @@ int main()
     std::cout << "Addition results in = " << a + b << std::endl;
 
     std::cout << "Addition results (using Fn) = " << addNumber(20, b) << std::endl;
+
+    // Error
+    std::cerr << "std::cerr --> Some error occurred" << std::endl;
+
+    // Log message
+    std::clog << "std::clog --> this is a log msg" << std::endl;
+
+    // Input data
+    std::string name;
+    std::cout << "What is your name ? " << std::endl;
+    std::cin >> name;
+    std::cout << "Welcome " << name << std::endl;
     // this tells O that the main was successfully run.
     return 0;
 }
