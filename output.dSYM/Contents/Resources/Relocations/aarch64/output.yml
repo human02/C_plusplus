@@ -1,5 +1,5 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/aarav/Desktop/Learn/C++/rooster'
+binary-path:     '/Users/aarav/Desktop/Learn/C++/output'
 relocations:     []
 ...
