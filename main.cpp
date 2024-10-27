@@ -34,6 +34,12 @@ int main()
     std::cout << "What is your name ? " << std::endl;
     std::cin >> name;
     std::cout << "Welcome " << name << std::endl;
+
+    // Chaining Data Inputs
+    int age;
+    std::cout << "enter name and age (separated by a space)" << std::endl;
+    std::cin >> name >> age;
+    std::cout << "Welcome " << name << "! You are " << age << " years old." << std::endl;
     // this tells O that the main was successfully run.
     return 0;
 }
